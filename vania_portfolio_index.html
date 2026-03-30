@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vania Kristianto | IT & Creative Portfolio</title>
+  <meta name="description" content="Portfolio website of Vania Kristianto, an Internet Engineering Technology student at UGM specializing in IT, networking, IoT, and video editing." />
+  <meta property="og:title" content="Vania Kristianto | IT & Creative Portfolio" />
+  <meta property="og:description" content="Portfolio website of Vania Kristianto, an Internet Engineering Technology student at UGM specializing in IT, networking, IoT, and video editing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630" />
+  <!-- Replace with real favicon -->
+  <!-- <link rel="icon" href="/favicon.ico" /> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="navbar-wrap">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a href="#home" class="brand" aria-label="Go to home section">
+          <span class="brand-mark">VK</span>
+          <span class="brand-text">Vania Kristianto</span>
+        </a>
+
+        <div class="nav-menu" id="navMenu">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#resume">Resume</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" aria-pressed="false" title="Switch to dark mode">
+            <i class="fa-solid fa-sun theme-icon theme-icon-sun" aria-hidden="true"></i>
+            <i class="fa-solid fa-moon theme-icon theme-icon-moon" aria-hidden="true"></i>
+          </button>
+          <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navMenu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow pill">
+              <i class="fa-solid fa-sparkles"></i>
+              Creative-Tech Hybrid Portfolio
+            </div>
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Vania Kristianto</span>
+            </h1>
+            <p class="hero-subtitle">
+              Internet Engineering Technology Student | IT Enthusiast | Video Editor
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#it-portfolio">
+                <i class="fa-solid fa-briefcase"></i>
+                View Portfolio
+              </a>
+              <a class="btn btn-secondary" href="#contact">
+                <i class="fa-solid fa-paper-plane"></i>
+                Contact Me
+              </a>
+            </div>
+
+            <div class="social-row" aria-label="Social links">
+              <!-- Replace social URLs below -->
+              <a class="social-link" href="https://instagram.com/therevaniaa" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a class="social-link" href="https://linkedin.com/in/vaniakrsitianto" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a class="social-link" href="https://github.com/vaniakristianto" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="social-link" href="https://wa.me/6285759145905" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="hero-orb"></div>
+            <div class="hero-orb-2"></div>
+            <div class="hero-orb-3"></div>
+
+            <div class="hero-photo-card">
+              <!-- Replace this image URL with your own portrait photo -->
+              <img class="hero-photo" src="img/Foto 3x4.webp" alt="Portrait photo of Vania Kristianto" />
+              <div class="hero-photo-caption">Vania Kristianto</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">About</h2>
+          <p class="section-subtitle">A premium introduction that reflects both technical capability and creative execution.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="profile-card card reveal">
+            <div class="profile-frame">
+              <div class="cv-download-content">
+                <h3 class="cv-download-title">Curriculum Vitae</h3>
+                <p class="cv-download-note">View my latest CV here.</p>
+                <a class="btn btn-primary cv-download-btn" href="https://drive.google.com/file/d/1-ImHFi79BhJ05p5u4CVz-0t0MA4yEszE/view?usp=sharing" target="_blank">
+                  <i class="fa-solid fa-eye"></i>
+                  View CV
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card card reveal">
+            <p class="about-text">
+              “A third-year Internet Engineering Technology student at UGM, combines technical expertise with creative skills in video editing, graphic design, photography, and video production. Since 2020, she has actively contributed to organizations and events, showcasing her ability to manage visual storytelling and production.”
+            </p>
+
+            <div class="detail-grid">
+              <div class="detail-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <span>City</span>
+                  <strong>Yogyakarta, Indonesia</strong>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-cake-candles"></i>
+                <div>
+                  <span>Age</span>
+                  <strong>21</strong>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <span>Phone</span>
+                  <strong>+62 857-5914-5905</strong>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <span>Email</span>
+                  <strong>vaniakristianto15@gmail.com</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">Resume</h2>
+          <p class="section-subtitle">A concise overview of education and professional mindset.</p>
+        </div>
+
+        <div class="resume-grid">
+          <div class="summary-card reveal">
+            <h3 class="subsection-title"><i class="fa-solid fa-user-check"></i> Professional Summary</h3>
+            <p style="margin:0; color:var(--text); font-weight:500;">
+              “A dedicated and proactive individual with a strong work ethic and a commitment to continuous improvement. Skilled in problem-solving, collaboration, and delivering quality results.”
+            </p>
+          </div>
+
+          <div class="resume-card card reveal">
+            <h3 class="subsection-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+            <div class="timeline">
+              <article class="timeline-item card">
+                <span class="timeline-date">2023 - Present</span>
+                <h4 style="margin:0 0 6px;">Bachelor of Applied Engineering, Internet Engineering Technology</h4>
+                <p style="margin:0; color:var(--muted);">Universitas Gadjah Mada, Yogyakarta</p>
+              </article>
+              <article class="timeline-item card">
+                <span class="timeline-date">2020 - 2023</span>
+                <h4 style="margin:0 0 6px;">Mathematics and Natural Science</h4>
+                <p style="margin:0; color:var(--muted);">Pangudi Luhur Van Lith Senior High School, Muntilan, Central Java</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="reveal">
+          <h2 class="section-title">Portfolio</h2>
+          <p class="section-subtitle">A focused showcase of technical experience, networking knowledge, IoT work, and project documentation.</p>
+        </div>
+
+        <div class="accordion reveal">
+          <div class="accordion-item" id="accordion-it">
+            <button class="accordion-btn" aria-expanded="false" aria-controls="it-panel" id="it-trigger">
+              <div class="accordion-title-wrap">
+                <div class="accordion-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div>
+                  <h3 class="accordion-title">IT Portfolio</h3>
+                  <p class="accordion-meta">Networking • IoT • AI</p>
+                </div>
+              </div>
+              <div class="accordion-chevron"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="accordion-panel" id="it-panel" role="region" aria-labelledby="it-trigger">
+              <div class="accordion-panel-inner portfolio-layout">
+                <section>
+                  <h4 class="subsection-title"><i class="fa-solid fa-briefcase"></i> Experiences</h4>
+                  <div class="experience-grid">
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-server"></i></div>
+                      <span class="experience-date">Feb 2026 - Present</span>
+                      <p class="experience-org">PT Berca Hardayaperkasa</p>
+                      <h5 class="experience-role">Network Engineering Internship</h5>
+                      <a class="experience-link" href="https://berca.co.id" target="_blank" rel="noopener noreferrer" aria-label="Open PT Berca Hardaya Perkasa Instagram">
+                        <i class="bi bi-links"></i>
+                        Click for more
+                      </a>
+                    </article>
+                  </div>
+                </section>
+
+                <section>
+                  <h4 class="subsection-title"><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h4>
+                  <div class="skill-wrap">
+                    <div class="skill-chips">
+                      <span class="skill-chip">Networking Fundamentals</span>
+                      <span class="skill-chip">Routing &amp; Switching</span>
+                      <span class="skill-chip">IP Addressing &amp; Subnetting</span>
+                      <span class="skill-chip">Huawei / Cisco Basics</span>
+                      <span class="skill-chip">IoT</span>
+                      <span class="skill-chip">Arduino</span>
+                      <span class="skill-chip">Basic Python</span>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <h4 class="subsection-title"><i class="fa-solid fa-images"></i> Gallery Portfolio</h4>
+                  <div class="filter-row" id="itFilters" role="tablist" aria-label="IT portfolio filters"></div>
+                  <div class="gallery-grid" id="itGallery"></div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion reveal">
+          <div class="accordion-item" id="accordion-video">
+            <button class="accordion-btn" aria-expanded="false" aria-controls="video-panel" id="video-trigger">
+              <div class="accordion-title-wrap">
+                <div class="accordion-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div>
+                  <h3 class="accordion-title">Video Editing Portfolio</h3>
+                  <p class="accordion-meta">Motion Graphics • VFX • 2D & 3D Animation</p>
+                </div>
+              </div>
+              <div class="accordion-chevron"><i class="fa-solid fa-chevron-down"></i></div>
+            </button>
+            <div class="accordion-panel" id="video-panel" role="region" aria-labelledby="video-trigger">
+              <div class="accordion-panel-inner portfolio-layout">
+                <section>
+                  <h4 class="subsection-title"><i class="fa-solid fa-film"></i> Experiences</h4>
+                  <div class="experience-grid">
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                      <span class="experience-date">Mar 2026 - Present</span>
+                      <p class="experience-org">PLN</p>
+                      <h5 class="experience-role">Freelance Motion Grapher</h5>
+                      <a class="experience-link" href="https://instagram.com/pln_id" target="_blank" rel="noopener noreferrer" aria-label="Open PLN Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-scissors"></i></div>
+                      <span class="experience-date">Aug 2025 - Present</span>
+                      <p class="experience-org">Porsenigama UGM 2025</p>
+                      <h5 class="experience-role">Staff of Editing</h5>
+                      <a class="experience-link" href="https://instagram.com/porsenigama" target="_blank" rel="noopener noreferrer" aria-label="Open Porsenigama UGM Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-scissors"></i></div>
+                      <span class="experience-date">May - Dec 2025</span>
+                      <p class="experience-org">Gelanggang Expo UGM 2025</p>
+                      <h5 class="experience-role">Staff of Editing</h5>
+                      <a class="experience-link" href="https://instagram.com/gelexugm" target="_blank" rel="noopener noreferrer" aria-label="Open Gelanggang Expo UGM Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-users-gear"></i></div>
+                      <span class="experience-date">Mar - Jul 2025</span>
+                      <p class="experience-org">Gadjah Mada Basketball Competition 2025</p>
+                      <h5 class="experience-role">Coordinator of Design &amp; Documentation</h5>
+                      <a class="experience-link" href="https://instagram.com/gbc.ugm" target="_blank" rel="noopener noreferrer" aria-label="Open Gadjah Mada Basketball Competition Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-layer-group"></i></div>
+                      <span class="experience-date">Jul 2024 - Mar 2025</span>
+                      <p class="experience-org">National Networking Competition 3.0</p>
+                      <h5 class="experience-role">Coordinator of DDD (Design, Documentation, Decoration)</h5>
+                      <a class="experience-link" href="https://instagram.com/netcomp.ugm" target="_blank" rel="noopener noreferrer" aria-label="Open National Networking Competition Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-scissors"></i></div>
+                      <span class="experience-date">Apr - Dec 2024</span>
+                      <p class="experience-org">Pionir Permadani 2024</p>
+                      <h5 class="experience-role">Staff of Editing</h5>
+                      <a class="experience-link" href="https://instagram.com/pionirpermadani" target="_blank" rel="noopener noreferrer" aria-label="Open Pionir Permadani Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                    <article class="experience-card">
+                      <div class="experience-icon"><i class="fa-solid fa-camera"></i></div>
+                      <span class="experience-date">Mar - Nov 2024</span>
+                      <p class="experience-org">Misa Syukur UGM 2024</p>
+                      <h5 class="experience-role">Sub Coordinator of Documentation</h5>
+                      <a class="experience-link" href="https://instagram.com/misyu.ugm" target="_blank" rel="noopener noreferrer" aria-label="Open Misa Syukur UGM Instagram">
+                        <i class="bi bi-instagram"></i>
+                        Click for more
+                      </a>
+                    </article>
+                  </div>
+                </section>
+
+                <section>
+                  <h4 class="subsection-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Skills</h4>
+                  <div class="skill-wrap">
+                    <div class="skill-chips">
+                      <span class="skill-chip">Adobe Premiere Pro</span>
+                      <span class="skill-chip">Adobe After Effects</span>
+                      <span class="skill-chip">Figma</span>
+                      <span class="skill-chip">3D Blender</span>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <h4 class="subsection-title"><i class="fa-solid fa-images"></i> Gallery Portfolio</h4>
+                  <div class="filter-row" id="videoFilters" role="tablist" aria-label="Video portfolio filters"></div>
+                  <div class="gallery-grid" id="videoGallery"></div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-wrap reveal">
+          <div class="contact-card card">
+            <h2 class="section-title" style="margin-bottom:12px;">Contact</h2>
+            <p class="section-subtitle" style="margin:0 auto 0; text-align:center; max-width:540px;">
+              “Please feel free to reach out to me by WhatsApp or Email.”
+            </p>
+
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="https://wa.me/6285759145905" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp
+              </a>
+              <a class="btn btn-secondary" href="mailto:vaniakristianto15@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+                Email Me
+              </a>
+            </div>
+
+            <div class="social-row" style="justify-content:center;">
+              <!-- Replace social URLs below -->
+              <a class="social-link" href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a class="social-link" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a class="social-link" href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="social-link" href="https://wa.me/6285759145905" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>© 2026 Vania Kristianto. All rights reserved.</div>
+        <div class="footer-socials" aria-label="Footer social links">
+          <a class="icon-btn" href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a class="icon-btn" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="icon-btn" href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a class="icon-btn" href="https://wa.me/6285759145905" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Shared Reusable Gallery Modal -->
+  <div class="modal" id="galleryModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+      <div class="modal-content">
+        <div class="modal-topbar">
+          <span class="pill" id="modalSectionPill"><i class="fa-solid fa-folder-open"></i> Portfolio Item</span>
+          <button class="modal-close" id="modalClose" aria-label="Close gallery modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-image-wrap">
+          <img class="modal-image" id="modalImage" src="" alt="" />
+        </div>
+        <div class="modal-meta">
+          <span class="project-badge" id="modalCategory"></span>
+          <span class="pill" id="modalSourceType"><i class="fa-solid fa-link"></i> Source</span>
+          <div class="modal-source">
+            <a id="modalSourceLink" href="#" target="_blank" rel="noopener noreferrer" aria-label="Open project source in new tab">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <h3 id="modalTitle" style="margin:0 0 8px; font-size:1.5rem;"></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
