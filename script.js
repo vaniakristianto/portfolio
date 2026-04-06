@@ -185,8 +185,8 @@
       category: '2D Animation',
       title: 'PLN Individual Development Program',
       thumbnail: 'img/Video Editing/2D/PLN.webp',
-      fullImage: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view?usp=drive_link',
-      sourceUrl: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view?usp=drive_link',
+      fullImage: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view',
+      sourceUrl: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view',
       sourceType: 'Google Drive'
     }
   ];
