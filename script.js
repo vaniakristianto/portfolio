@@ -183,7 +183,7 @@
       id: 'video-12',
       section: 'video',
       category: '2D Animation',
-      title: 'PLN Individual Development Program',
+      title: 'Individual Development Program PLN',
       thumbnail: 'img/Video Editing/2D/PLN.webp',
       fullImage: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view',
       sourceUrl: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view',
