@@ -178,6 +178,16 @@
       fullImage: 'https://youtu.be/828oCcfrPfU',
       sourceUrl: 'https://youtu.be/828oCcfrPfU',
       sourceType: 'YouTube'
+    },
+    {
+      id: 'video-12',
+      section: 'video',
+      category: '2D Animation',
+      title: 'PLN Individual Development Program',
+      thumbnail: 'img/Video Editing/2D/PLN.webp',
+      fullImage: 'https://drive.google.com/file/d/1uXyOp-P0lyEpR0rCPyCosb-Tz72ZXqeG/view?usp=sharing',
+      sourceUrl: 'https://drive.google.com/file/d/1uXyOp-P0lyEpR0rCPyCosb-Tz72ZXqeG/view?usp=sharing',
+      sourceType: 'Google Drive'
     }
   ];
 
