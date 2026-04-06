@@ -182,7 +182,7 @@
     {
       id: 'video-12',
       section: 'video',
-      category: ['2D Animation', 'Motion Graphics'],
+      category: ['Motion Graphics', '2D Animation'],
       title: 'Individual Development Program PLN',
       thumbnail: 'img/Video Editing/2D/PLN.webp',
       fullImage: 'https://drive.google.com/file/d/1HkQinKFqTVQORMfXh2rr6KxMlf3v0rPR/view',
