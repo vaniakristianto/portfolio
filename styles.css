@@ -894,6 +894,39 @@ button { cursor: pointer; }
   gap: 12px;
 }
 
+.experience-logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px 22px;
+}
+
+.experience-logo-link {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition), opacity var(--transition);
+}
+
+.experience-logo-link:hover {
+  transform: scale(1.06);
+  opacity: 0.95;
+}
+
+.experience-logo-img {
+  width: auto;
+  height: 110px;
+  max-width: none;
+  max-height: 110px;
+  object-fit: contain;
+}
+
 .experience-sort-note {
   margin: -4px 0 14px;
   color: var(--muted);
